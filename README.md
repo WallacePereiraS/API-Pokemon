@@ -17,7 +17,7 @@ Para que a primeira funcionalidade seja aplicada, abra o insomnia e crie um HTTP
 
 ![Captura de tela de 2023-09-26 16-00-46](https://github.com/WallacePereiraS/API-Pokemon/assets/136649619/293ff4af-98a1-4e15-9efd-967abdcea93a)
 
-Para executar a segunda funcionalidade, abra o insomnia e crie um HTTP Request com o verbo GET contendo "http://localhost:3000/pokemon/150" ou "http://localhost:3000/pokemon/mewtwo", após ".../pokemon/" preencha com o Id do pokemon desejado ou seu nome (certifique-se de que o nome está correto)
+Para executar a segunda funcionalidade, abra o insomnia e crie um HTTP Request com o verbo GET contendo "http://localhost:3000/pokemon/150" ou "http://localhost:3000/pokemon/mewtwo", após ".../pokemon/" preencha com o Id do pokemon desejado ou seu nome.
 
 
 > Pesquisando pelo nome
