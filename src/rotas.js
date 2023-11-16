@@ -1,8 +1,8 @@
 const express = require('express')
-const { pokemons, pokemon } = require('./controladores/pokemons')
+const { listaDePokemons, detalheDePokemon } = require('./controladores/pokemons')
 const rotas = express()
 
-rotas.get('/pokemon', pokemons)
-rotas.get('/pokemon/:idOuNome', pokemon)
+rotas.get('/pokemon', listaDePokemons)
+rotas.get('/pokemon/:idOuNome', detalheDePokemon)
 
 module.exports = rotas
